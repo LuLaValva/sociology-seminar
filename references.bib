@@ -7,7 +7,7 @@
 	author    = {Gianfrancesco, Milena A. and Tamang, Suzanne and Yazdany, Jinoos and Schmajuk, Gabriela},
 	year      = {2018},
 	publisher = {JAMA Internal Medicine},
-	pages     = {1544-1547}
+	pages     = {1544--1547}
 }
 
 @article{Plaza_2019_ConsensusAlgorithmsMedicalMisinformation,
@@ -16,7 +16,7 @@
 	journal = {International Journal of Academic Medicine},
 	volume  = {5},
 	number  = {2},
-	pages   = {93-99},
+	pages   = {93--99},
 	doi     = {10.4103/IJAM.IJAM_47_19},
 	year    = {2019},
 	url     = {https://www.ijam-web.org/article.asp?issn=2455-5568;year=2019;volume=5;issue=2;spage=93;epage=99;aulast=Plaza;t=6},
@@ -42,7 +42,7 @@
 	abstract   = {The widespread dissemination of misinformation in social media has recently received a lot of attention in academia. While the problem of misinformation in social media has been intensively studied, there are seemingly different definitions for the same problem, and inconsistent results in different studies. In this survey, we aim to consolidate the observations, and investigate how an optimal method can be selected given specific conditions and contexts. To this end, we first introduce a definition for misinformation in social media and we examine the difference between misinformation detection and classic supervised learning. Second, we describe the diffusion of misinformation and introduce how spreaders propagate misinformation in social networks. Third, we explain characteristics of individual methods of misinformation detection, and provide commentary on their advantages and pitfalls. By reflecting applicability of different methods, we hope to enable the intensive research in this area to be conveniently reused in real-world applications and open up potential directions for future studies.},
 	journal    = {SIGKDD Explor. Newsl.},
 	month      = nov,
-	pages      = {80–90},
+	pages      = {80--90},
 	numpages   = {11}
 }
 
@@ -107,11 +107,47 @@
 	doi       = {10.1145/3397271.3401112},
 	abstract  = {Truthfulness judgments are a fundamental step in the process of fighting misinformation, as they are crucial to train and evaluate classifiers that automatically distinguish true and false statements. Usually such judgments are made by experts, like journalists for political statements or medical doctors for medical statements. In this paper, we follow a different approach and rely on (non-expert) crowd workers. This of course leads to the following research question: Can crowdsourcing be reliably used to assess the truthfulness of information and to create large-scale labeled collections for information credibility systems? To address this issue, we present the results of an extensive study based on crowdsourcing: we collect thousands of truthfulness assessments over two datasets, and we compare expert judgments with crowd judgments, expressed on scales with various granularity levels. We also measure the political bias and the cognitive background of the workers, and quantify their effect on the reliability of the data provided by the crowd.},
 	booktitle = {Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
-	pages     = {439–448},
+	pages     = {439--448},
 	numpages  = {10},
 	keywords  = {crowdsourcing, classification, information credibility},
 	location  = {Virtual Event, China},
 	series    = {SIGIR '20}
+}
+
+@article{Pennycook_2021_CrowdsourcedJudgements,
+	author    = {Pennycook, Gordon and Rand, David G.},
+	title     = {Fighting misinformation on social media using crowdsourced judgments of news source quality},
+	volume    = {116},
+	number    = {7},
+	pages     = {2521--2526},
+	year      = {2019},
+	doi       = {10.1073/pnas.1806781116},
+	publisher = {National Academy of Sciences},
+	abstract  = {Many people consume news via social media. It is therefore desirable to reduce social media users{\textquoteright} exposure to low-quality news content. One possible intervention is for social media ranking algorithms to show relatively less content from sources that users deem to be untrustworthy. But are laypeople{\textquoteright}s judgments reliable indicators of quality, or are they corrupted by either partisan bias or lack of information? Perhaps surprisingly, we find that laypeople{\textemdash}on average{\textemdash}are quite good at distinguishing between lower- and higher-quality sources. These results indicate that incorporating the trust ratings of laypeople into social media ranking algorithms may prove an effective intervention against misinformation, fake news, and news content with heavy political bias.Reducing the spread of misinformation, especially on social media, is a major challenge. We investigate one potential approach: having social media platform algorithms preferentially display content from news sources that users rate as trustworthy. To do so, we ask whether crowdsourced trust ratings can effectively differentiate more versus less reliable sources. We ran two preregistered experiments (n = 1,010 from Mechanical Turk and n = 970 from Lucid) where individuals rated familiarity with, and trust in, 60 news sources from three categories: (i) mainstream media outlets, (ii) hyperpartisan websites, and (iii) websites that produce blatantly false content ({\textquotedblleft}fake news{\textquotedblright}). Despite substantial partisan differences, we find that laypeople across the political spectrum rated mainstream sources as far more trustworthy than either hyperpartisan or fake news sources. Although this difference was larger for Democrats than Republicans{\textemdash}mostly due to distrust of mainstream sources by Republicans{\textemdash}every mainstream source (with one exception) was rated as more trustworthy than every hyperpartisan or fake news source across both studies when equally weighting ratings of Democrats and Republicans. Furthermore, politically balanced layperson ratings were strongly correlated (r = 0.90) with ratings provided by professional fact-checkers. We also found that, particularly among liberals, individuals higher in cognitive reflection were better able to discern between low- and high-quality sources. Finally, we found that excluding ratings from participants who were not familiar with a given news source dramatically reduced the effectiveness of the crowd. Our findings indicate that having algorithms up-rank content from trusted media outlets may be a promising approach for fighting the spread of misinformation on social media.},
+	issn      = {0027-8424},
+	url       = {https://www.pnas.org/content/116/7/2521},
+	eprint    = {https://www.pnas.org/content/116/7/2521.full.pdf},
+	journal   = {Proceedings of the National Academy of Sciences}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% ATTENTION MECHANISMS %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Pennycook_2021_AttentionToAccuracy,
+	author   = {Pennycook, Gordon and Epstein, Ziv and Mosleh, Mohsen and Arechar, Antonio A. and Eckles, Dean and Rand, David G.},
+	title    = {Shifting attention to accuracy can reduce misinformation online},
+	journal  = {Nature},
+	year     = {2021},
+	month    = {Apr},
+	day      = {01},
+	volume   = {592},
+	number   = {7855},
+	pages    = {590--595},
+	abstract = {In recent years, there has been a great deal of concern about the proliferation of false and misleading news on social media1--4. Academics and practitioners alike have asked why people share such misinformation, and sought solutions to reduce the sharing of misinformation5--7. Here, we attempt to address both of these questions. First, we find that the veracity of headlines has little effect on sharing intentions, despite having a large effect on judgments of accuracy. This dissociation suggests that sharing does not necessarily indicate belief. Nonetheless, most participants say it is important to share only accurate news. To shed light on this apparent contradiction, we carried out four survey experiments and a field experiment on Twitter; the results show that subtly shifting attention to accuracy increases the quality of news that people subsequently share. Together with additional computational analyses, these findings indicate that people often share misinformation because their attention is focused on factors other than accuracy---and therefore they fail to implement a strongly held preference for accurate sharing. Our results challenge the popular claim that people value partisanship over accuracy8,9, and provide evidence for scalable attention-based interventions that social media platforms could easily implement to counter misinformation online.},
+	issn     = {1476-4687},
+	doi      = {10.1038/s41586-021-03344-2},
+	url      = {https://doi.org/10.1038/s41586-021-03344-2}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -123,7 +159,7 @@
 	journal  = {Vaccine},
 	volume   = {28},
 	number   = {7},
-	pages    = {1709-1716},
+	pages    = {1709--1716},
 	year     = {2010},
 	issn     = {0264-410X},
 	doi      = {https://doi.org/10.1016/j.vaccine.2009.12.022},
