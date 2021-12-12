@@ -1,5 +1,5 @@
 ---
-title: Misinformation
+title: Stunting Algorithmic Spread of Misinformation
 author: Lucas LaValva
 date: November 30, 2021
 output: pdf_document
@@ -11,11 +11,30 @@ header-includes:
     - \usepackage{fancyhdr}
     - \pagestyle{fancy}
     - \lhead{Lucas LaValva}
-    - \chead{Identification of Misinformation}
+    - \chead{Stunting Algorithmic Spread of Misinformation}
     - \rhead{Sociology Seminar}
 bibliography: [references.bib]
 ---
 
+# Introduction
+
+# Problem Statement
+
+# Literature Review
+
+## Identification of Misinformation
+
+## Establishment of Consensus
+
+## Detection of Misinformation with Macine Learning
+
+## Biases in Machine Learning Algorithms
+
+## Non-algorithmic Spread of Misinformation
+
+# Methods
+
+# Conclusion
 
 # Bibliography
 
@@ -28,3 +47,5 @@ bibliography: [references.bib]
 ```{=latex}
 \end{hangparas}
 ```
+
+# Appendix
