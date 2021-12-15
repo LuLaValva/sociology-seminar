@@ -1,5 +1,5 @@
 ---
-title: Stunting Algorithmic Spread of Misinformation
+title: Restricting Algorithmic Propagation of Misnformation
 author: Lucas LaValva
 date: November 30, 2021
 output: pdf_document
@@ -11,7 +11,7 @@ header-includes:
     - \usepackage{fancyhdr}
     - \pagestyle{fancy}
     - \lhead{Lucas LaValva}
-    - \chead{Stunting Algorithmic Spread of Misinformation}
+    - \chead{Restricting Algorithmic Propagation of Misnformation}
     - \rhead{Sociology Seminar}
 bibliography: [references.bib]
 ---
