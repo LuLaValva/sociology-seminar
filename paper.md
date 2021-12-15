@@ -26,8 +26,6 @@ Since the advent of the internet, communication among members of society has und
 
 A very large body of politicians, news anchors, academics, and activists have been voicing negative opinions about rampant misinformation for many years, but public knowledge of the problem seems to have grown exponentially since the United States presidential election in 2016, as large political campaigns were built around the presence of "fake news" that has supposedly made its way into every tendril of mainstream media. Because of the large attention that this topic has received, social media companies and academic institutions alike are feverishly seeking methods that may be used to mitigate the problem. Hundreds of research papers are produced every year which study specific aspects of internet misinformation, such as the potential reasons why it is appealing to users of social media, the way that a topic propagates throughout the internet, and the detection of misleading news with the use of algorithms. One topic of discussion that seems not to have received as much attention is the way that algorithms encourage certain posts and bodies of information to spread.
 
-# Problem Statement
-
 # Literature Review
 
 ## Identification of Misinformation
@@ -157,6 +155,10 @@ If the hypothesis is correct, the bottleneck that is applied to each post will, 
 If the hypothesis is incorrect, the proportion of misinformation within the platform will have remained constant after the change has been made to the algorithm.
 
 # Conclusion
+
+Most research that has been published about misinformation is designed either as an analysis of its qualities or as an experiment that aims to disincentivize its spread. Logically, the research that performs analysis is designed to encourage further research into disincentivization. While the body of published research in the former category is fairly balanced in between the study of algorithms and the study of psychological factors that lead to misinformation, it seems as though an overwhelming majority of the publications which study disincentivization are researching psychological factors. To effectively reduce the spread of misinformation in social media, both psychological and technological factors must be considered. The experiment performed in this study is designed to acquire additional information about how algorithms may be modified to reduce the spread of misinformation. While the psychology of the platforms' users is considered, the primary focus is discovering underlying rules that encourage excessive propagation of misinformed news and information.
+
+Most research about algorithmic detection of misinformation attempts to use neural networks or other machine learning technology to identify whether a set of posts or publishers is trustworthy. While this works in many contained environments, the dynamic and constantly changing sphere of social media is not a place where accuracy can stay consistent without excessive manual intervention. If instead, a modification for algorithms that spread information can be discovered that disincentivizes their spread, no further intervention would be required. If the hypothesis in this study is correct, the changes to the algorithms that social media platforms use may be applied directly in order to reduce misinformation in social media.
 
 # Bibliography
 
